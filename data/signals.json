@@ -1,0 +1,25 @@
+{
+  "note": "Fictional sample pipeline for the demo: twelve imaginary accounts and inbound signals invented for illustration. Not real companies or events.",
+  "accounts": [
+    { "id": "ac-nimbus", "name": "Nimbus Freight", "industry": "logistics", "employees": 340, "arr": 1200000, "stage": "customer", "owner": "A. Rivera" },
+    { "id": "ac-hale", "name": "Hale & Foster Health", "industry": "healthcare", "employees": 890, "arr": 0, "stage": "prospect", "owner": "unassigned" },
+    { "id": "ac-brightline", "name": "Brightline Solar", "industry": "energy", "employees": 210, "arr": 480000, "stage": "customer", "owner": "J. Okafor" },
+    { "id": "ac-copper", "name": "Copperpot Foods", "industry": "cpg", "employees": 95, "arr": 0, "stage": "prospect", "owner": "unassigned" },
+    { "id": "ac-vectra", "name": "Vectra Robotics", "industry": "manufacturing", "employees": 430, "arr": 900000, "stage": "customer", "owner": "A. Rivera" },
+    { "id": "ac-lumen", "name": "Lumen Legal", "industry": "legal", "employees": 130, "arr": 150000, "stage": "customer", "owner": "J. Okafor" }
+  ],
+  "signals": [
+    { "id": "sig-01", "accountId": "ac-hale", "type": "hiring", "detail": "Posted 14 sales roles in 30 days", "strength": 82, "at": "2026-11-21T14:00:00Z" },
+    { "id": "sig-02", "accountId": "ac-hale", "type": "funding", "detail": "Announced a $40M Series B", "strength": 91, "at": "2026-11-20T09:30:00Z" },
+    { "id": "sig-03", "accountId": "ac-nimbus", "type": "product-launch", "detail": "Launched a refrigerated LTL line", "strength": 64, "at": "2026-11-19T16:45:00Z" },
+    { "id": "sig-04", "accountId": "ac-brightline", "type": "usage-drop", "detail": "Weekly active seats down 38% in 3 weeks", "strength": 77, "at": "2026-11-22T08:00:00Z" },
+    { "id": "sig-05", "accountId": "ac-copper", "type": "hiring", "detail": "First revenue-ops hire posted", "strength": 58, "at": "2026-11-18T11:15:00Z" },
+    { "id": "sig-06", "accountId": "ac-vectra", "type": "contract-renewal", "detail": "Renewal in 45 days at $900k ARR", "strength": 88, "at": "2026-11-22T13:20:00Z" },
+    { "id": "sig-07", "accountId": "ac-vectra", "type": "usage-drop", "detail": "Two champion users deactivated", "strength": 71, "at": "2026-11-21T19:05:00Z" },
+    { "id": "sig-08", "accountId": "ac-lumen", "type": "expansion", "detail": "Opened a second office in Austin", "strength": 52, "at": "2026-11-17T10:00:00Z" },
+    { "id": "sig-09", "accountId": "ac-hale", "type": "exec-change", "detail": "New VP Revenue started last week", "strength": 79, "at": "2026-11-22T15:40:00Z" },
+    { "id": "sig-10", "accountId": "ac-copper", "type": "funding", "detail": "Filed a Form D for a seed extension", "strength": 66, "at": "2026-11-16T12:00:00Z" },
+    { "id": "sig-11", "accountId": "ac-nimbus", "type": "contract-renewal", "detail": "Renewal in 90 days at $1.2M ARR", "strength": 61, "at": "2026-11-15T09:00:00Z" },
+    { "id": "sig-12", "accountId": "ac-lumen", "type": "usage-spike", "detail": "Seat usage up 3x after paralegal team onboarded", "strength": 74, "at": "2026-11-21T07:30:00Z" }
+  ]
+}
